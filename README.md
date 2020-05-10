@@ -4,5 +4,5 @@
 
 ### Screen Preview
 
-<img src="./screenshot/preview.png" width="300" height="650">
+<img src="./screenshot/preview.png" width="300" height="550">
 
