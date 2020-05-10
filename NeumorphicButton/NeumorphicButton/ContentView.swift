@@ -12,9 +12,9 @@ struct ContentView: View {
                 self.showingAlert = true
             }) {
                 Image(systemName: "flame.fill")
-                .resizable()
-                .frame(width: 100, height: 140)
-                .accentColor(Color(red: 247/255, green: 115/255, blue: 0/255))
+                    .resizable()
+                    .frame(width: 100, height: 140)
+                    .accentColor(Color(red: 247/255, green: 115/255, blue: 0/255))
             }
             .alert(isPresented: $showingAlert) {
                 Alert(title: Text("Message from Human Torch"),
