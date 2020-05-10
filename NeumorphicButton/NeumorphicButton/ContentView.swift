@@ -21,6 +21,7 @@ struct ContentView: View {
                       message: Text("Flame On !!"),
                       dismissButton: .default(Text("OK")))
             }
+            .shadow(color: Color.white, radius: 8, x: -8, y: -8)
         }
     }
 }
