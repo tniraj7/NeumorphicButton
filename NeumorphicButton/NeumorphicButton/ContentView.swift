@@ -22,6 +22,7 @@ struct ContentView: View {
                       dismissButton: .default(Text("OK")))
             }
             .shadow(color: Color.white, radius: 8, x: -8, y: -8)
+            .shadow(color: Color(red: 163/255, green: 177/255, blue: 198/255), radius: 8, x: 9, y: 9)
         }
     }
 }
