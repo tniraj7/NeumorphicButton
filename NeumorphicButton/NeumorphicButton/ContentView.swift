@@ -14,6 +14,7 @@ struct ContentView: View {
                 Image(systemName: "flame.fill")
                     .resizable()
                     .frame(width: 100, height: 140)
+                    .shadow(color: Color.white, radius: 8, x: -8, y: -8)
                     .accentColor(Color(red: 247/255, green: 115/255, blue: 0/255))
                     .padding()
                     .background(Color(red: 224/255, green: 229/255, blue: 236/255))
