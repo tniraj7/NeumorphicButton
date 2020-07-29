@@ -2,32 +2,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var showingAlert = false
-    
     var body: some View {
         
-        ZStack {
-            Color(red: 224/255, green: 229/255, blue: 236/255)
-            Button(action: {
-                self.showingAlert = true
-            }) {
-                Image(systemName: "flame.fill")
-                    .resizable()
-                    .frame(width: 100, height: 140)
-                    .shadow(color: Color.white, radius: 8, x: -8, y: -8)
-                    .shadow(color: Color(red: 163/255, green: 177/255, blue: 198/255), radius: 8, x: 9, y: 9)
-                    .accentColor(Color(red: 247/255, green: 115/255, blue: 0/255))
-                    .padding()
-                    .background(Color(red: 224/255, green: 229/255, blue: 236/255))
+        VStack {
+            
+            NeumorphicButton(
+                systemName: "flame.fill",
+                width: 80, height: 120,
+                accentColor: Color(#colorLiteral(red: 0.968627451, green: 0.4509803922, blue: 0, alpha: 1))
+            ) {
+                // do stuff here
+                print("Clicked !!")
             }
-            .alert(isPresented: $showingAlert) {
-                Alert(title: Text("Message from Human Torch"),
-                      message: Text("Flame On !!"),
-                      dismissButton: .default(Text("OK")))
-            }
-            .cornerRadius(20)
-            .shadow(color: Color.white, radius: 8, x: -8, y: -8)
-            .shadow(color: Color(red: 163/255, green: 177/255, blue: 198/255), radius: 8, x: 9, y: 9)
         }
     }
 }

@@ -13,6 +13,7 @@
 		342720F62467C816004CCC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342720F52467C816004CCC1D /* Assets.xcassets */; };
 		342720F92467C816004CCC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342720F82467C816004CCC1D /* Preview Assets.xcassets */; };
 		342720FC2467C816004CCC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342720FA2467C816004CCC1D /* LaunchScreen.storyboard */; };
+		347E08AF24D158BF009DD4DE /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E08AE24D158BF009DD4DE /* NeumorphicButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		342720F82467C816004CCC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		342720FB2467C816004CCC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342720FD2467C816004CCC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347E08AE24D158BF009DD4DE /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				342720EF2467C815004CCC1D /* AppDelegate.swift */,
 				342720F12467C815004CCC1D /* SceneDelegate.swift */,
 				342720F32467C815004CCC1D /* ContentView.swift */,
+				347E08AE24D158BF009DD4DE /* NeumorphicButton.swift */,
 				342720F52467C816004CCC1D /* Assets.xcassets */,
 				342720FA2467C816004CCC1D /* LaunchScreen.storyboard */,
 				342720FD2467C816004CCC1D /* Info.plist */,
@@ -149,6 +152,7 @@
 				342720F02467C815004CCC1D /* AppDelegate.swift in Sources */,
 				342720F22467C815004CCC1D /* SceneDelegate.swift in Sources */,
 				342720F42467C815004CCC1D /* ContentView.swift in Sources */,
+				347E08AF24D158BF009DD4DE /* NeumorphicButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
